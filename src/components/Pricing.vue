@@ -4,9 +4,10 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Pricing</h2>
-          <p>Check our Pricing</p>
+          <p>Bussiness model</p>
         </div>
 
+<<<<<<< Updated upstream
         <div class="row" data-aos="fade-left">
 
           <div class="col-lg-3 col-md-6">
@@ -26,23 +27,42 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+=======
+        <div style="justify-content: center;" class="row" data-aos="fade-left">
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0 ">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3 style="text-align:center;" class="amazing"> Authentified cow NFTzation</h3>
+              <h6><sup>$</sup>10<span> / cow</span></h6>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>NFT Certification system. </li>
+                <li>Importation of quality meat</li>
+                <li>Traceability via Blockchain</li>
+                <li>No third parties</li>
+
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy">Get Started</a>
+              </div>
+            </div>
+          </div>
+>>>>>>> Stashed changes
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
+              <h3> Document authentification</h3>
+              <h4><sup>$</sup>1<span> / Document</span></h4>
+              <ul>
+                <li>Document certification (at least 10) </li>
+                <li>Ease of document uploading</li>
+                <li>Automated processes</li>
+                <li>No third parties</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Get Started</a>
               </div>
             </div>
           </div>
 
+<<<<<<< Updated upstream
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <h3>Developer</h3>
@@ -78,7 +98,10 @@
             </div>
           </div>
 
+=======
+>>>>>>> Stashed changes
         </div>
+
 
       </div>
     </section>
