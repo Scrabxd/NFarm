@@ -158,6 +158,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
 }
+
+.color-primary {
+  color: --primary-color;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -324,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  border-bottom: 4px solid #147452;
 }
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -341,10 +346,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: #147452;
 }
 #hero .btn-get-started:hover {
-  background: #17b57d;
+  background: #188660;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -1159,13 +1164,14 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #1AA66B;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #34e5a6;
+  color: #1AA66B;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -1184,7 +1190,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: #1AA66B;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;

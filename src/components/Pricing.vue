@@ -1,3 +1,5 @@
+
+
 <template>
     <section id="pricing" class="pricing">
       <div class="container">
@@ -53,5 +55,6 @@ export default {
   name: 'TestimonialsComponent'
 }
 </script>
+
 
 
