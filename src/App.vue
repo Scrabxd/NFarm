@@ -7,7 +7,6 @@
       <features-component/>
       <counts-component/>
       <details-component/>
-      <gallery-component/>
       <team-component/>
       <testimonials-component/>
       <pricing-component/>
@@ -25,7 +24,6 @@ import AboutComponent from './components/About.vue'
 import FeaturesComponent from './components/Features.vue'
 import CountsComponent from './components/Counts.vue'
 import DetailsComponent from './components/Details.vue'
-import GalleryComponent from './components/Gallery.vue'
 import TestimonialsComponent from './components/Testimonials.vue'
 import TeamComponent from './components/Team.vue'
 import PricingComponent from './components/Pricing.vue'
@@ -44,7 +42,6 @@ export default {
     FeaturesComponent,
     CountsComponent,
     DetailsComponent,
-    GalleryComponent,
     TestimonialsComponent,
     TeamComponent,
     PricingComponent,

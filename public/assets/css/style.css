@@ -575,7 +575,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #1AA66B;
 }
 
 /*--------------------------------------------------------------
@@ -1016,7 +1016,7 @@ section {
   bottom: -80px;
   left: 0px;
   right: 0px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #fff;
   padding: 15px 0;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1025,7 +1025,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #1AA66B;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1035,7 +1035,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #0d12fc;
+  background: #1AA66B;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1043,14 +1043,14 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #1AA66B;
 }
 .team .member .social {
   margin-top: 10px;
 }
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #1AA66B;
 }
 .team .member .social a:hover {
   color: #1acc8d;
