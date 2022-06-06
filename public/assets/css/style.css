@@ -687,14 +687,14 @@ section {
   font-size: 14px;
 }
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/about-1.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#1AA66B 50%, rgba(26, 166, 107, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -733,13 +733,13 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
+  border: 5px solid rgba(26, 166, 107, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #1AA66B;
   transform: scale(20);
 }
 .about .play-btn:hover::before {
