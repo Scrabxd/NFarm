@@ -587,7 +587,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #343a40;
   margin-bottom: 15px;
 }
 .about .icon-box {
@@ -814,7 +814,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #343a40;
 }
 .details .content ul {
   list-style: none;
@@ -990,7 +990,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #1AA66B;
+  color: #343a40;
 }
 .team .member .social {
   margin-top: 10px;
@@ -1030,7 +1030,7 @@ section {
 }
 .pricing h4 {
   font-size: 36px;
-  color: #1acc8d;
+  color: #1AA66B;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1057,7 +1057,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing ul i {
-  color: #1acc8d;
+  color: #1AA66B;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1072,7 +1072,7 @@ section {
   text-align: center;
 }
 .pricing .btn-buy {
-  background: #1acc8d;
+  background: #1AA66B;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1089,7 +1089,7 @@ section {
 }
 .pricing .featured h3 {
   color: #fff;
-  background: #1acc8d;
+  background: #1AA66B;
 }
 .pricing .advanced {
   width: 200px;
