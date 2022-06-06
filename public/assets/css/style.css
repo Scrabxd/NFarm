@@ -304,11 +304,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 120px 0 100px 0;
 }
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: #1AA66B;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -348,6 +348,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+#hero .hero-img img{
+  border-radius: 72% 28% 46% 54% / 57% 27% 73% 43%;
 }
 @media (min-width: 1024px) {
   #hero {
