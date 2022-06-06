@@ -158,6 +158,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
 }
+
+.color-primary {
+  color: --primary-color;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -1136,13 +1141,14 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #1AA66B;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #34e5a6;
+  color: #1AA66B;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -1161,7 +1167,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: #1AA66B;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
