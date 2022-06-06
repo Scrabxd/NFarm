@@ -158,6 +158,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
 }
+
+.color-primary {
+  color: --primary-color;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -1022,6 +1027,13 @@ section {
   position: relative;
   overflow: hidden;
 }
+.pricing h2{
+  font-size: 36px;
+  color: #bababa;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
@@ -1047,6 +1059,22 @@ section {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
+}
+.pricing h6 span{
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.pricing h6{
+  font-size: 36px;
+  color: #777777;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.amazing{
+
 }
 .pricing ul {
   padding: 0;
@@ -1136,13 +1164,14 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #1AA66B;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #34e5a6;
+  color: #1AA66B;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -1161,7 +1190,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #1acc8d;
+  color: #1AA66B;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1383,6 +1412,8 @@ section {
   margin-left: 7%;
   margin-right: 7%;
 }
+
+
 #footer .footer-top .footer-links ul a {
   color: #fff;
   transition: 0.3s;

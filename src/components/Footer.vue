@@ -7,7 +7,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>NFarm</h3>
-              <p class="pb-3"><em>Slogan.</em></p>
+              <p class="pb-3"><em>You, Your cattle & your system.</em></p>
 
             </div>
           </div>
