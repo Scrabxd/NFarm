@@ -67,3 +67,5 @@ export default {
   name: 'TestimonialsComponent'
 }
 </script>
+
+
