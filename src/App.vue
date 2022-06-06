@@ -12,6 +12,7 @@
       <testimonials-component/>
       <pricing-component/>
       <faq-component/>
+      <contact-component/>
     </main>
 
   <footer-component/>
@@ -28,8 +29,9 @@ import GalleryComponent from './components/Gallery.vue'
 import TestimonialsComponent from './components/Testimonials.vue'
 import TeamComponent from './components/Team.vue'
 import PricingComponent from './components/Pricing.vue'
-import FooterComponent from './components/Footer.vue'
 import FaqComponent from './components/Faq.vue'
+import ContactComponent from './components/Contact.vue'
+import FooterComponent from './components/Footer.vue'
 
 
 
@@ -46,8 +48,10 @@ export default {
     TestimonialsComponent,
     TeamComponent,
     PricingComponent,
-    FooterComponent,
     FaqComponent,
+    ContactComponent,
+    FooterComponent,
+  
   }
 }
 </script>
