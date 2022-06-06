@@ -1428,6 +1428,11 @@ section {
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
+
+.see-us{
+  margin-left: 7%;
+  margin-right: 7%;
+}
 #footer .footer-top .footer-links ul a {
   color: #fff;
   transition: 0.3s;
