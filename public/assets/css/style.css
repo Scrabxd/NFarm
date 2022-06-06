@@ -781,7 +781,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1acc8d;
+  background: #1AA66B;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -864,7 +864,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 3, 111, 0.8);
+  background: #11161ad6;
 }
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -1311,7 +1311,7 @@ section {
   margin-bottom: 15px;
   background: --primary-color;
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid #147452;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1363,7 +1363,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #147452;
   font-size: 18px;
   line-height: 1;
 }
@@ -1410,13 +1410,13 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
+  background: #147452;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #149f6e;
+  background: #147452;
 }
 #footer .copyright {
   border-top: 1px solid #010479;
