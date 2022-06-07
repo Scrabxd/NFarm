@@ -1,49 +1,27 @@
 <template>
-  <header-component/>
-  <hero-component/>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
 
-    <main>
-      <about-component/>
-      <counts-component/>
-      <details-component/>
-      <team-component/>
-      <testimonials-component/>
-      <pricing-component/>
-      <faq-component/>
-    </main>
+      <div class="logo">
+        <h1>
+          <router-link to="/">NFarm</router-link>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
 
-  <footer-component/>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto menu-item active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto menu-item" href="#about">About</a></li>
+          <li><a class="nav-link scrollto menu-item" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto menu-item" href="#pricing">Pricing</a></li>
+          <router-link to="/upload-my-cattle">Upload my cattle</router-link>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+  <router-view/>
 </template>
-
-<script>
-import HeaderComponent from './components/Header.vue'
-import HeroComponent from './components/Hero.vue'
-import AboutComponent from './components/About.vue'
-import CountsComponent from './components/Counts.vue'
-import DetailsComponent from './components/Details.vue'
-import TestimonialsComponent from './components/Testimonials.vue'
-import TeamComponent from './components/Team.vue'
-import PricingComponent from './components/Pricing.vue'
-import FaqComponent from './components/Faq.vue'
-import FooterComponent from './components/Footer.vue'
-
-
-
-export default {
-  name: 'App',
-  components: {
-    HeaderComponent, 
-    HeroComponent,
-    AboutComponent,
-    CountsComponent,
-    DetailsComponent,
-    TestimonialsComponent,
-    TeamComponent,
-    PricingComponent,
-    FaqComponent,
-    FooterComponent,
-  
-  }
-}
-</script>
-

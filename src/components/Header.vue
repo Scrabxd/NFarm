@@ -4,7 +4,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html"><span>NFarm</span></a></h1>
+        <h1><router-link to="/">NFarm</router-link></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -15,6 +15,7 @@
           <li><a class="nav-link scrollto menu-item" href="#about">About</a></li>
           <li><a class="nav-link scrollto menu-item" href="#team">Team</a></li>
           <li><a class="nav-link scrollto menu-item" href="#pricing">Pricing</a></li>
+          <router-link to="/upload-my-cattle">Upload my cattle</router-link>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
