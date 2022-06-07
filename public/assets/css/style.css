@@ -167,6 +167,78 @@ h1, h2, h3, h4, h5, h6 {
   background: #1AA66B;
 }
 
+
+
+.missing {
+  border: solid 1px #e8e5e5 !important;
+  box-shadow: 2px 2px 5px -3px rgb(179 179 179);
+  color: #8e8e8e;
+
+}
+
+.missing .bi{
+  font-size: 18px;
+}
+
+.button-text {
+  margin-right: 4px;
+}
+
+.btn-primary-small {
+  background-color: #1AA66B;
+  color:#fff;
+  font-size: 12px;
+}
+
+.btn-primary-outline--disabled {
+  background-color: #c3c3c3 !important;
+  color:#555555 !important;
+}
+
+.btn-primary-outline {
+  background-color: #1AA66B;
+  color:#fff;
+}
+
+.btn-primary-outline:hover {
+  color:#fff;
+}
+
+.btn-primary-small:hover {
+  background-color: #148e5b;
+  color:#fff;
+}
+
+.document-uploaded {
+  border: solid 1px #1AA66B !important;
+}
+
+.document-uploaded .bi {
+  font-size: 20px;
+}
+
+.document-uploaded p, .document-uploaded .bi {
+  color: #1AA66B;
+}
+
+.validated-2 {
+  font-weight: 400;
+}
+
+.validated-2 span {
+  margin-left: 5px;
+}
+
+.validated {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.validated span {
+  margin-right: 2px;
+  font-weight: 600;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
