@@ -94,7 +94,7 @@
             <div class="col-md-6 col-12">
                 <div class="card border-primary document-uploaded">
                     <div class="card-body d-flex justify-content-between align-items-center align-items-center">
-                        <p class="m-0 color-primary">Cattle shoeing</p>
+                        <p class="m-0 color-primary">Cattle breed</p>
                         <small class="d-flex align-items-center color-primary validated">
                             <span>Validated</span>
                             <i class="bi bi-check2-circle color-primary"></i>
@@ -119,7 +119,7 @@
              <div class="col-md-6 col-12">
                 <div class="card border-primary document-uploaded">
                     <div class="card-body d-flex justify-content-between align-items-center align-items-center">
-                        <p class="m-0 color-primary">Refrigerator process</p>
+                        <p class="m-0 color-primary">Refrigeration process</p>
                         <small class="d-flex align-items-center color-primary validated">
                             <span>Validated</span>
                             <i class="bi bi-check2-circle color-primary"></i>
