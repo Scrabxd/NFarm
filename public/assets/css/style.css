@@ -160,7 +160,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color-primary {
-  color: --primary-color;
+  color: #1AA66B;
+}
+
+.bg-primary {
+  background: #1AA66B;
 }
 
 .navbar ul {
@@ -1301,7 +1305,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background: #1AA66B;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1309,7 +1313,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
+  background: #1AA66B;
 }
 @-webkit-keyframes animate-loading {
   0% {
