@@ -10,6 +10,10 @@
             <a type="button" class="btn mb-4 ms-auto btn-primary-outline mb-5 btn-primary-outline--disabled" id="btn-upload">
                 Certificate my cattle
             </a>
+
+            <a type="button" href="/marketplace" class="btn mb-4 ms-auto btn-primary-outline mb-5 d-none" id="marketplace">
+                Go marketplace
+            </a>
         </div>
 
         <div class="row mb-4">
@@ -176,8 +180,12 @@ window.onload = () => {
             var card = document.querySelector( '#vaccines-card' );
             document.querySelector( '#span' ).classList.remove("d-none");
             document.querySelector( '#file' ).classList.add("d-none");
+
+            document.querySelector( '#marketplace' ).classList.remove("d-none");
+
             
             btn.classList.remove("btn-primary-outline--disabled");
+            btn.classList.add("d-none");
 
             card.classList.remove("missing");
             card.classList.add("document-uploaded");
