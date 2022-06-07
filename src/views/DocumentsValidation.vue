@@ -12,7 +12,7 @@
             </a>
 
             <a type="button" href="/marketplace" class="btn mb-4 ms-auto btn-primary-outline mb-5 d-none" id="marketplace">
-                Go marketplace
+                See it in the marketplace
             </a>
         </div>
 
