@@ -50,12 +50,13 @@ window.onload = () => {
 
   const btnGetStarted = document.querySelector( '.btn-get-started' )
 
+
   btnGetStarted.addEventListener( 'click', () => {
 
     //check if ethereum extension is installed  
     if (window.ethereum !== 'undefined') {
 
-      loginWithMetamask()
+      loginWithMetamask();
 
     } else {
 
@@ -97,6 +98,7 @@ async function loginWithMetamask () {
     if ( window.networkChainId == zeniqChainId ) {
 
         window.userWalletAddress = accounts[ 0 ]
+        window.location.href = 'http://localhost:8080/marketplace';
 
     } else {
 
@@ -110,7 +112,6 @@ async function loginWithMetamask () {
 async function metamaskLogOut () {
     // delete the userWalletAddress
     window.userWalletAddress = null
-    console.log( window.userWalletAddress );
 
 }
 

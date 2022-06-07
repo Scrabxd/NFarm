@@ -15,7 +15,7 @@
           <li><a class="nav-link scrollto menu-item" href="#about">About</a></li>
           <li><a class="nav-link scrollto menu-item" href="#team">Team</a></li>
           <li><a class="nav-link scrollto menu-item" href="#pricing">Pricing</a></li>
-          <router-link to="/upload-my-cattle">Upload my cattle</router-link>
+          <li><a class="nav-link scrollto upload-nav-item">Upload my cattle</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -27,10 +27,9 @@
 </template>
 
 <script>
-
+import Swal from 'sweetalert2'
+const zeniqChainId = 383414847825
 // menu items reference
-
-
 
 window.onload = () => {
   const menuItems = document.querySelectorAll( '.menu-item' )
@@ -46,7 +45,62 @@ window.onload = () => {
       
     })
     })
+
 }
+
+
+window.addEventListener( 'load', () => {
+
+  const uploadCattleItem = document.querySelector( '.upload-nav-item' )
+  
+  uploadCattleItem.addEventListener( 'click', loginWithMetamask )
+
+})
+
+async function loginWithMetamask () {
+
+    // make a request to connect to a metamask account and get the wallet address
+    const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' })
+        .catch( ( error ) => {
+            if (error.code === 4001 ) {
+                Swal.fire( 'You need to accept the request to continue' )
+            }
+            return 
+        })
+
+    // if we don't have account return to avoid asign user wallet
+    if ( !accounts ) { 
+
+      Swal.fire( "We couldn't connect to you MetaMask account" )
+
+      return 
+      
+      }
+
+    
+    // get the metamask chain id
+    window.networkChainId = window.ethereum.networkVersion;
+
+    //check if metamask is connected to zeniq chain
+    if ( window.networkChainId == zeniqChainId ) {
+
+        window.userWalletAddress = accounts[ 0 ]
+        window.location.href = 'http://localhost:8080/upload-my-cattle';
+
+    } else {
+
+        Swal.fire( 'Please connect to zeniq smart chain' )
+        metamaskLogOut();
+
+    }
+
+}
+
+async function metamaskLogOut () {
+    // delete the userWalletAddress
+    window.userWalletAddress = null
+}
+
 
 
 export default {
