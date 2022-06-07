@@ -189,6 +189,9 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
+.upload-nav-item{
+  cursor: pointer;
+}
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
