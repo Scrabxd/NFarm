@@ -170,7 +170,7 @@ window.onload = () => {
         confirmButtonText: 'Upload',
         confirmButtonColor: '#1AA66B',
         showLoaderOnConfirm: true,
-        preConfirm: (login) => {
+        preConfirm: () => {
 
         },
         allowOutsideClick: () => !Swal.isLoading()
